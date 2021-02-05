@@ -10,27 +10,28 @@ showAuthorInfo: false
 
 To get started, first download and install the latest version of [IntelliJ IDEA](http://www.jetbrains.com/idea/download/index.html).
 
-## Create an application 
+## 创建一个 application 
 
-Once you've installed IntelliJ IDEA, it's time to create your first Kotlin application.
+你已经下载了 IntelliJ 运行环境的程序（Android开发环境）, 是时候去创建你自己的第一个 Kotlin application.
 
-1. In IntelliJ IDEA, select **File** \| **New** \| **Project**.
-2. In the panel on the left, select **Kotlin**.
-3. Enter a project name, select **Console Application** as the project template, and click **Next**.
+
+1. 在 IntelliJ IDEA, 依次点击 **File** \| **New** \| **Project**.---->>创建第一个项目
+2. 在左边的列表里, 选择 **Kotlin**.------->>选择语言
+3. 写入你的项目名称, 依次点击 **Console Application** as the project template, and click **Next**.----->>从文件名开始你的创作
    
    ![Create a console application]({{ url_for('tutorial_img', filename='getting-started/jvm-new-project-1.png') }})
    
-   By default, your project will use the Gradle build system with Kotlin DSL.
+   默认状态下, 你的项目将使用 Gradle 创建 Kotlin DSL.
 
-3. Go through and accept the default configuration, then click **Finish**.
+3. 浏览并接受了默认设置, 就点击  **Finish**.
   
    ![Configure a console application]({{ url_for('tutorial_img', filename='getting-started/jvm-new-project-2.png') }}) 
 
-   Your project will open. By default, you see the file `build.gradle.kts`, which is the build script created by the Project 
+   你的项目将要打开. 一般情况下, 你将看到一个文件 `build.gradle.kts`, 这是这个项目已经帮您创建了脚本
    Wizard based on your configuration. It includes the `kotlin("jvm")` plugin and dependencies required for your console application.
 
-3. Open the `main.kt` file in `src/main/kotlin`.  
-   The `src` directory contains Kotlin source files and resources. The `main.kt` file contains sample code that will print 
+3. 打开 `main.kt` 文件在 `src/main/kotlin`.  
+   The `src` directory contains Kotlin 源代码文件和资源文件 . The `main.kt` file contains sample code that will print 
    `Hello World!`.
 
    ![main.kt with main fun]({{ url_for('tutorial_img', filename='getting-started/jvm-main-kt-initial.png') }})
@@ -54,7 +55,7 @@ Once you've installed IntelliJ IDEA, it's time to create your first Kotlin appli
 
    <img class="img-responsive" src="{{ url_for('tutorial_img', filename='getting-started/jvm-main-kt-updated.png') }}" alt="Updated main fun" width="400"/>
 
-## Run the application
+## 运行 application
 
 Now the application is ready to run. The easiest way to do this is to click the green __Run__ icon in the gutter and select __Run 'MainKt'__.
 
