@@ -10,9 +10,9 @@ showAuthorInfo: false
 
 To get started, first download and install the latest version of [IntelliJ IDEA](http://www.jetbrains.com/idea/download/index.html).
 
-## Create an application 
+## 制作一个 application 
 
-Once you've installed IntelliJ IDEA, it's time to create your first Kotlin application.
+你第一次 installed IntelliJ IDEA,是时候去创建你自己的 Kotlin application.
 
 1. In IntelliJ IDEA, select **File** \| **New** \| **Project**.
 2. In the panel on the left, select **Kotlin**.
